@@ -18,6 +18,18 @@ cmd: npm install express --save
 -or to install express globally on your system for other packages as well:
 cmd: npm install -g express
 
+for https://code.visualstudio.com/docs/nodejs/nodejs-tutorial,
+Express can automatically generate an app with these commands:
+$ npm install -g express-generator
+$ express myExpressApp
+$ cd myExpressApp
+$ npm install
+$ npm start
+Then open in browser:
+http://localhost:3000
+
+
+Manually use express and Start using code:
 Code called filename.js:
 --------
 var express = require('express');
