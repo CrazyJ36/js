@@ -1,4 +1,7 @@
 var headerTxt = document.querySelector('h1');
-headerTxt.onclick = function() {
-  headerTxt.textContent = 'Hello World';
+
+var btn = document.querySelector('button');
+
+btn.onclick = function() {
+	headerTxt.textContent = 'Button clicked';
 }
