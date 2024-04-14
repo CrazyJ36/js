@@ -1,6 +1,6 @@
 class MyClass {
     myMain() {
-        console.log('test')
+        console.log('Running code from other class.')
     }
 }
 module.exports = { MyClass, } // important.
